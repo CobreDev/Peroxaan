@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Electrocam</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../Apps.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <body>
+
+<!-- Navbar -->
+<div class="px-top">
+  <div class="px-bar px-black px-card">
+    <a class="px-bar-item px-button px-padding-large px-hide-medium px-hide-large px-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/" class="px-bar-item px-button px-padding-large">HOME</a>
+    <a href="../#apps" class="px-bar-item px-button px-padding-large px-hide-small">APPS</a>
+    <a href="../#team" class="px-bar-item px-button px-padding-large px-hide-small">TEAM</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="px-bar-block px-black px-hide px-hide-large px-hide-medium px-top" style="margin-top:46px">
+  <a href="../#apps" class="px-bar-item px-button px-padding-large" onclick="myFunction()">APPS</a>
+  <a href="../#team" class="px-bar-item px-button px-padding-large" onclick="myFunction()">TEAM</a>
+</div>
+
+<!-- Page content -->
+<div class="px-content" style="max-width:2000px;margin-top:46px">
+  <main class="section-main">
+    <img class="app-icon" src="../Resources/Apps/Electrocam.png">
+
+    <h1>Electrocam</h1>
+    <h2>An upcoming Camera app from Peroxaan, packed with pro features</h2>
+
+    <button class="btn-soon">Coming Soon</button>
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="px-container px-padding-16 px-center px-opacity px-light-grey px-xlarge">
+  <a href="https://twitter.com/Peroxaan"><i class="fa fa-twitter px-hover-opacity"></i></a>
+  <p class="px-medium">Created by <a href="https://twitter.com/mac_user669" target="_blank">mac-user669</a></p>
+</footer>
+
+<script>
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("px-show") == -1) {
+    x.className += " px-show";
+  } else { 
+    x.className = x.className.replace(" px-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
