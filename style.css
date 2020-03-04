@@ -493,10 +493,13 @@ a{
 		width:24.99999%
 }
     .px-col.m4,.px-third{
-    width:33.33333%
+    	width:33.33333%
 }
-    .px-apps{
-    width:50%
+	.px-apps {
+		width:50%;
+}
+	.px-round {
+		border-radius: 55px;
 }
 	.px-col.m5{
 		width:41.66666%
@@ -609,6 +612,17 @@ a{
 }
 }
 @media (max-width:600px){
+	.px-round {
+		border-radius: 20px;
+	}
+	.px-apps {
+		width: 50%;
+	}
+	.px-third {
+		width: 85%;  
+		margin: 25px;
+
+	}
 	.px-modal-content{
 		margin:0 10px;
 		width:auto!important
@@ -765,7 +779,7 @@ a{
 .px-round-small{
 	border-radius:2px
 }
-.px-round,.px-round-medium{
+.px-round-medium{
 	border-radius:4px
 }
 .px-round-large{

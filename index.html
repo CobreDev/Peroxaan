@@ -39,7 +39,7 @@
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="px-bar-block px-black px-hide px-hide-large px-hide-medium px-top" style="margin-top:46px">
+<div id="customNavBar" class="px-bar-block px-black px-hide px-hide-large px-hide-medium px-top" style="margin-top:46px">
   <a href="#apps" class="px-bar-item px-button px-padding-large" onclick="myFunction()">APPS</a>
   <a href="#team" class="px-bar-item px-button px-padding-large" onclick="myFunction()">TEAM</a>
 </div>
@@ -154,7 +154,7 @@
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
-  var x = document.getElementById("navDemo");
+  var x = document.getElementById("customNavBar");
   if (x.className.indexOf("px-show") == -1) {
     x.className += " px-show";
   } else { 
