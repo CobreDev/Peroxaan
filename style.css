@@ -195,6 +195,14 @@ a{
 .mySlides {
     display: none
 }
+.px-logo-button {
+	background-image: -webkit-linear-gradient(left, #F2A9C6, #EC645E);
+    background-image:linear-gradient(to right, #F2A9C6,#EC645E);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: x-large;
+}
 .px-table,.px-table-all{
 	border-collapse:collapse;
 	border-spacing:0;
