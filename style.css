@@ -1093,7 +1093,8 @@ a{
 }
 .px-button:hover{
 	color:#000!important;
-	background-color:#ccc!important
+	/* background-color:#ccc!important */
+	background-color:#FF789A!important
 }
 .px-transparent,.px-hover-none:hover{
 	background-color:transparent!important
