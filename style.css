@@ -1186,9 +1186,9 @@ a{
 	color:#fff!important;
     background-color:#000!important;
 }
-.px-team,.px-hover-team:hover{
+.px-gradient,.px-hover-gradient:hover{
 	color:#fff!important;
-    background-image: linear-gradient(to right, #F2A9C6 , #EC645E);
+    background-image: linear-gradient(to right, #F2A9C6 , rgb(245, 107, 118));
 }
 .px-grey,.px-hover-grey:hover,.px-gray,.px-hover-gray:hover{
 	color:#000!important;
