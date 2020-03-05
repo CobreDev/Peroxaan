@@ -29,17 +29,29 @@
 <body>
 
 <!-- Navbar -->
+
 <div class="px-top">
   <div class="px-bar px-black px-card">
     <a class="px-bar-item px-button px-padding-large px-hide-medium px-hide-large px-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="px-bar-item px-button px-padding-large">HOME</a>
-    <a href="#apps" class="px-bar-item px-button px-padding-large px-hide-small">APPS</a>
-    <a href="#team" class="px-bar-item px-button px-padding-large px-hide-small">TEAM</a>
+    <a href="#" class="px-bar-item px-button px-padding-large" style="
+
+    background-image: -webkit-linear-gradient(left, #F2A9C6, #EC645E);
+    background-image:linear-gradient(to right, #F2A9C6,#EC645E);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: x-large;
+    
+    ">Peroxaan Studios</a>
+    <a href="#" class="px-bar-item px-button px-padding-large px-hide-small" style="font-size: small;margin-top: 8px;">HOME</a>
+    <a href="#apps" class="px-bar-item px-button px-padding-large px-hide-small" style="font-size: small;margin-top: 8px;">APPS</a>
+    <a href="#team" class="px-bar-item px-button px-padding-large px-hide-small" style="font-size: small;margin-top: 8px;">TEAM</a>
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="customNavBar" class="px-bar-block px-black px-hide px-hide-large px-hide-medium px-top" style="margin-top:46px">
+  <a href="#" class="px-bar-item px-button px-padding-large" onclick="myFunction()">HOME</a>
   <a href="#apps" class="px-bar-item px-button px-padding-large" onclick="myFunction()">APPS</a>
   <a href="#team" class="px-bar-item px-button px-padding-large" onclick="myFunction()">TEAM</a>
 </div>
@@ -50,45 +62,52 @@
 <!-- Pink Gradient -->
 <div class="px-team" id="tour">
       <img src="./Resources/Header.png" style="width:100%">
-
     </div>
 
-  <!-- The Apps Section -->
+  <!-- The About Section -->
   <div class="px-container px-content px-center px-padding-64" style="max-width:800px" id="apps">
-    <h2 class="px-wide">OUR APPS</h2>
-    <p class="px-justify">Here are the apps we’ve been working on in the past few months. All of them are in beta testing. Check them out on TestFlight! Also, some of them coming soon to Google Play.</p>
-    <div class="px-row px-padding-32">
-      <div class="px-apps">
-        <p>Aerosketch</p>
-        <a href="Aerosketch"><img src="./Resources/Apps/Aerosketch.png" class="px-round px-margin-bottom" alt="Aerosketch" style="width:60%"></a>
-
-      </div>
-      <div class="px-apps">
-        <p>Electrocam</p>
-        <a href="Electrocam"><img src="./Resources/Apps/Electrocam.png" class="px-round px-margin-bottom" alt="Electrocam" style="width:60%"></a>
-      </div>
-      <div class="px-apps">
-        <p>Talon</p>
-        <a href="Talon"><img src="./Resources/Apps/Talon.png" class="px-round px-margin-bottom" alt="Talon" style="width:60%"></a>
-      </div>
-      <div class="px-apps">
-        <p>Xenoshare</p>
-        <a href="Xenoshare"><img src="./Resources/Apps/Xenoshare.png" class="px-round px-margin-bottom" alt="Xenoshare" style="width:60%"></a>
-      </div>
-    </div>
+    <h2 class="px-wide">About Us</h2>
+    <p class="px-justify">Welcome to the official Peroxaan Studios website! We’re a development company run by Michael Burkhardt that aims to innovate the apps and services you use daily.</p>
   </div>
 
+    <!-- The Apps Section -->
+    <div class="px-container px-content px-center px-padding-64" style="max-width:800px" id="apps">
+      <h2 class="px-wide">Our Apps</h2>
+      <p class="px-justify">Here are the apps we’ve been working on in the past few months. All of them are in beta testing. Check them out on TestFlight! Also, some of them coming soon to Google Play.</p>
+      <div class="px-row px-padding-32">
+        <div class="px-apps">
+          <p>Aerosketch</p>
+          <a href="Aerosketch"><img src="./Resources/Apps/Aerosketch.png" class="px-round px-margin-bottom" alt="Aerosketch" style="width:60%"></a>
+        </div>
+        <div class="px-apps">
+          <p>Electrocam</p>
+          <a href="Electrocam"><img src="./Resources/Apps/Electrocam.png" class="px-round px-margin-bottom" alt="Electrocam" style="width:60%"></a>
+        </div>
+        <div class="px-apps">
+          <p>Talon</p>
+          <a href="Talon"><img src="./Resources/Apps/Talon.png" class="px-round px-margin-bottom" alt="Talon" style="width:60%"></a>
+        </div>
+        <div class="px-apps">
+          <p>Xenoshare</p>
+          <a href="Xenoshare"><img src="./Resources/Apps/Xenoshare.png" class="px-round px-margin-bottom" alt="Xenoshare" style="width:60%"></a>
+        </div>
+      </div>
+    </div>
+
+  
   <!-- The Tour Section -->
   <div class="px-team" id="team">
     <div class="px-container px-content px-padding-64" style="max-width:800px">
-      <h2 class="px-wide px-center">OUR TEAM</h2>
+      <h2 class="px-wide px-center">Our Team</h2>
 
       <div class="px-row-padding px-padding-32" style="margin:0 -16px">
         <div class="px-third px-margin-bottom">
           <a href="https://twitter.com/tme_michael"><img src="./Resources/People/Michael.png" alt="Michael" style="width:100%" class="px-hover-opacity"></a>
           <div class="px-container px-white">
             <p><b>Michael Burkhardt</b></p>
+            <p class="px-opacity">@tme_michael</p>
             <p>CEO of Peroxaan Studios, and head of iOS development.</p>
+          </br>
             <a class="px-button px-black px-margin-bottom" href="https://twitter.com/tme_michael">Twitter</a>
             <a class="px-button px-black px-margin-bottom" href="mailto:michael@peroxaan.tech">Email</a>
           </div>
@@ -98,6 +117,7 @@
           <a href="https://twitter.com/TallestPix"><img src="./Resources/People/Pix.png" alt="Pix" style="width:100%" class="px-hover-opacity"></a>
           <div class="px-container px-white">
             <p><b>TallestPix</b></p>
+            <p class="px-opacity">@TallestPix</p>
             <p>COO of Peroxaan Studios. Does some design, as well as manages our Instagram account.</p>
             <a class="px-button px-black px-margin-bottom" href="https://twitter.com/TallestPix">Twitter</a>
             <a class="px-button px-black px-margin-bottom" href="mailto:pix@peroxaan.tech">Email</a>
@@ -108,6 +128,7 @@
           <a href="https://twitter.com/DylanMcD8"><img src="./Resources/People/Dylan.png" alt="Dylan" style="width:100%" class="px-hover-opacity"></a>
           <div class="px-container px-white">
             <p><b>Dylan McDonald</b></p>
+            <p class="px-opacity">@DylanMcD8</p>
             <p>Design Consultant for Peroxaan Studios. Designs app icons and banners.</p><br /> 
             <a class="px-button px-black px-margin-bottom" href="https://twitter.com/DylanMcD8">Twitter</a>
             <a class="px-button px-black px-margin-bottom" href="mailto:dylan@peroxaan.tech">Email</a>
@@ -118,6 +139,7 @@
           <a href="https://twitter.com/TheLBall"><img src="./Resources/People/TheLBall.png" alt="TheLBall" style="width:100%" class="px-hover-opacity"></a>
           <div class="px-container px-white">
             <p><b>TheLBall</b></p>
+            <p class="px-opacity">@TheLBall</p>
             <p>Android developer for Peroxaan Studios. Currently he is working on porting our apps to Android.</p>
             <a class="px-button px-black px-margin-bottom" href="https://twitter.com/TheLBall">Twitter</a>
             <a class="px-button px-black px-margin-bottom" href="mailto:thelball@peroxaan.tech">Email</a>
@@ -128,7 +150,9 @@
           <a href="https://twitter.com/mac_user669"><img src="./Resources/People/mac-user669.png" alt="mac-user669" style="width:100%" class="px-hover-opacity"></a>
           <div class="px-container px-white">
             <p><b>mac-user669</b></p>
+            <p class="px-opacity">@mac_user669</p>
             <p>mac-user669, also known as Cooper, is our lead Web Developer.</p>
+          </br>
             <a class="px-button px-black px-margin-bottom" href="https://twitter.com/mac_user669">Twitter</a>
             <a class="px-button px-black px-margin-bottom" href="mailto:cooper@peroxaan.tech">Email</a>
           </div>
