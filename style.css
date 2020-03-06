@@ -1199,6 +1199,9 @@ a{
 	color:#fff!important;
     background-image: linear-gradient(to right, #F2A9C6 , rgb(245, 107, 118));
 }
+.px-page,.px-hover-page:hover{
+/* Nothing here yet */
+}
 .px-grey,.px-hover-grey:hover,.px-gray,.px-hover-gray:hover{
 	color:#000!important;
 	background-color:#9e9e9e!important
