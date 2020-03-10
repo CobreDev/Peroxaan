@@ -489,6 +489,7 @@ a{
 .px-col.s12{
 	width:99.99999%
 }
+
 @media (min-width:601px){
 	.px-col.m1{
 		width:8.33333%
@@ -1192,23 +1193,25 @@ a{
 	background-color:#fff!important
 }
 .px-black,.px-hover-black:hover{
-	color:#fff!important;
-    background-color:#000!important;
+	color:#FFFFFF!important;
+    background-color:#000000!important;
+}
+.px-bar-color,.px-hover-bar-color:hover{
+	color:#000000!important;
+    background-color:#FFFFFF!important;
 }
 .px-gradient,.px-hover-gradient:hover{
 	color:#fff!important;
     background-image: linear-gradient(to right, #F2A9C6 , rgb(245, 107, 118));
 }
-.px-page,.px-hover-page:hover{
-/* Nothing here yet */
-}
+
 .px-grey,.px-hover-grey:hover,.px-gray,.px-hover-gray:hover{
 	color:#000!important;
 	background-color:#9e9e9e!important
 }
 .px-light-grey,.px-hover-light-grey:hover,.px-light-gray,.px-hover-light-gray:hover{
 	color:#000!important;
-	background-color:#f1f1f1!important
+	background-color:#F7F7F7!important
 }
 .px-dark-grey,.px-hover-dark-grey:hover,.px-dark-gray,.px-hover-dark-gray:hover{
 	color:#fff!important;
@@ -1399,3 +1402,36 @@ a{
 	border-color:#e7ffff!important
 }
 
+/* Dark mode implementation */
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #111111;
+		color: #FFFFFF;
+	}
+
+	.px-white,.px-hover-white:hover{
+		color:#FFFFFF!important;
+		background-color:#181818!important
+	}
+
+	.footer {
+		background-color: yellow;
+	}
+
+	.px-light-grey,.px-hover-light-grey:hover,.px-light-gray,.px-hover-light-gray:hover{
+		color:#FFFFFF!important;
+		background-color:#181818!important
+	}
+
+	.px-bar-color,.px-hover-bar-color:hover{
+		color:#FFFFFF!important;
+		background-color:#111111!important;
+	}
+
+
+	.px-black,.px-hover-black:hover{
+		color:#FFFFFF!important;
+	    background-color:#111111!important;
+	}
+
+}
