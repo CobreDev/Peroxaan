@@ -4,7 +4,6 @@ html{
 *,*:before,*:after{
 	box-sizing:inherit
 }
-/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{
 	-ms-text-size-adjust:100%;
 	-webkit-text-size-adjust:100%
@@ -1434,4 +1433,12 @@ a{
 	    background-color:#111111!important;
 	}
 
+}
+
+/* make the website a bit responsive */
+@media(max-width: 1024px) {
+    .section-main {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
 }

@@ -1,75 +1,69 @@
-.px-image{
-	max-width:100%;
-	height:auto
-}
+	body {
+    background-image: linear-gradient(to right, #F2A9C6 , #EC645E);
+	}
 
-.hero-image {
+	.hero-image {
     width: 50%;
-}
+	}
 
-.app-icon {
+	.app-icon {
 	height: 8em;
 	width: 8em;
 	border-radius: 30px;
-}
-  
-.app-badges {
-	display: flex;
-	flex-direction: column;
-	gap: 0.25em;
-	align-items: center;
-}
-  
-.app-badge {
-  height: 4em;
-  width: 12em;
-}
-  
-.btn-soon{
-	height: 4em;
-	width: 12em;
-	border-radius: 10px;
-	border-color: #912135;
-	border-style: solid;
-	background-color: #D03743;
-	color: white;
-}
-	
-  /* make the website a bit responsive */
-@media(max-width: 1024px) {
-	.section-main {
-	padding-left: 2em;
-	padding-right: 2em;
 	}
-}
+  
+	.app-badges {
+	  display: flex;
+	  flex-direction: column;
+	  gap: 0.25em;
+	  align-items: center;
+	}
+  
+	.app-badge {
+	  height: 4em;
+	  width: 12em;
+	}
 
-body{
-    margin:0;
-    font-family: "Lato", sans-serif;
-	background-image: -webkit-linear-gradient(left, #F2A9C6, #EC645E);
-	background-image:linear-gradient(to right, #F2A9C6,#EC645E);}
+	.btn-soon{
+		height: 4em;
+		width: 12em;
+		border-radius: 10px;
+		border-color: #912135;
+		border-style: solid;
+		background-color: #D03743;
+		color: white;
+	}
 
-/* make sections pretty */
-.section-main {
-    /* for some reason it works. don't touch it please */
-    display: grid;
-    justify-items: center;
+	/* reset the headings */
+	h1, h2, h3, h4, h5, h6 {
+		margin: 0;
+	}
 
-    text-align: center;
+	/* make sections pretty */
+	.section-main {
+	    /* for some reason it works. don't touch it please */
+	    display: grid;
+	    justify-items: center;
+	    text-align: center;
+	    padding: 0.5em;
+	    padding-left: 25vw;
+	    padding-right: 25vw;
+	    gap: 1em;
+	    color: #fff;
+	}
 
-    padding: 0.5em;
+	.section-main > h1 {
+	    font-size: 3.5em;
+	}
 
-    padding-left: 25vw;
-    padding-right: 25vw;
-
-    gap: 1em;
-    color: #fff;
-}
-
-.section-main > h1 {
-    font-size: 3.5em;
-}
-
-.section-main > h2 {
-    font-size: 1.25em;
-}
+	.section-main > h2 {
+	    font-size: 1.25em;
+	}
+  
+	/* Make the website a bit responsive */
+	@media(max-width: 1024px) {
+	    .section-main {
+	        padding-left: 2em;
+	        padding-right: 2em;
+	    }
+	}
