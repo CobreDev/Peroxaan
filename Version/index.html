@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Talon</title>
+  <title>Xenoshare</title>
 </head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160360963-1"></script>
@@ -13,7 +13,6 @@
   gtag('config', 'UA-160360963-1');
 </script>
 
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="../style.css">
@@ -22,24 +21,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
-
-<link rel="apple-touch-icon" sizes="57x57" href="../Favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="../Favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="../Favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="../Favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="../Favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="../Favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="../Favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="../Favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../Favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="../Favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../Favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="../Favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../Favicon/favicon-16x16.png">
-<link rel="manifest" href="../Favicon/manifest.json">
-<meta name="msapplication-TileColor" content="../#ffffff">
-<meta name="msapplication-TileImage" content="../Favicon/ms-icon-144x144.png">
-
 <body>
 
 <!-- Navbar -->
@@ -64,23 +45,31 @@
 
 <!-- Page content -->
 <div class="px-content" style="max-width:2000px;margin-top:100px">
-  <main class="section-main">
-    <img class="app-icon" src="../Resources/Apps/Talon.png">
 
-    <h1>Talon</h1>
-    <h2>Talon is designed to make your life easier. Webhook Management and File Sharing combined, with your needs in mind.</h2>
-
-    <img class="hero-image" src="../Resources/Screenshots/Talon.png">
-
-    <div class="app-badges">
-    
-    <a href="https://testflight.apple.com/join/PLKKFJ9Q">
-        <img class="app-badge" src="../Resources/Testflight.png">
-    </a>
-    
+  <div class="px-gradient" style="height: 200px;">
+    <div class="px-container px-content px-center px-padding-64" style="max-width:800px" id="apps">
+      <h2 class="px-wide"></h2>
+      <p class="px-justify"></p>
     </div>
+  </div>
+
+    <div class="px-gradient" style="height: 300px;">
+      <div class="px-container px-content px-center px-padding-64" style="max-width:800px" id="apps">
+    <h2 class="px-wide">Version 1.3</h2>
+    <br></br>
+    <a class="px-button px-black px-margin-bottom" href="/">Go Home</a>
+
+  </div>
+</div>
+
+<div class="px-gradient" style="height: 100px;">
+  <div class="px-container px-content px-center px-padding-64" style="max-width:800px" id="apps">
+    <h2 class="px-wide"></h2>
+    <p class="px-justify"></p>
+  </div>
 </div>
 <!-- End Page Content -->
+</div>
 
 <!-- Footer -->
 <footer class="px-container px-padding-16 px-center px-light-grey px-xlarge">
@@ -96,7 +85,7 @@
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
-  var x = document.getElementById("customNavBar");
+  var x = document.getElementById("navDemo");
   if (x.className.indexOf("px-show") == -1) {
     x.className += " px-show";
   } else { 
