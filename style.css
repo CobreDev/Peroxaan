@@ -628,31 +628,30 @@ a{
 	.px-third {
 		width: 85%;  
 		margin: 25px;
-
 	}
 	.px-modal-content{
 		margin:0 10px;
 		width:auto!important
-}
+	}
 	.px-modal{
 		padding-top:30px
-}
+	}
 	.px-dropdown-hover.px-mobile .px-dropdown-content,.px-dropdown-click.px-mobile .px-dropdown-content{
 		position:relative
-}
+	}
 	.px-hide-small{
 		display:none!important
-}
+	}
 	.px-mobile{
 		display:block;
 		width:100%!important
-}
+	}
 	.px-bar-item.px-mobile,.px-dropdown-hover.px-mobile,.px-dropdown-click.px-mobile{
 		text-align:center
-}
+	}
 	.px-dropdown-hover.px-mobile,.px-dropdown-hover.px-mobile .px-btn,.px-dropdown-hover.px-mobile .px-button,.px-dropdown-click.px-mobile,.px-dropdown-click.px-mobile .px-btn,.px-dropdown-click.px-mobile .px-button{
 		width:100%
-}
+	}
 }
 @media (max-width:768px){
 	.px-modal-content{
