@@ -1,3 +1,2 @@
-# Peroxaan
-
-https://mac-user669.github.io/Peroxaan/
+# Peroxaan.com Redesign
+dev.peroxaan.com

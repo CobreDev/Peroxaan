@@ -1,117 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Talon</title>
-</head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160360963-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Webhooks made easy.">
+    <meta name="author" content="Peroxaan Studios">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@TalonApp">
+    <meta name="twitter:title" content="Talon">
+    <meta name="twitter:description" content="Webhooks made easy.">
+		<link rel="icon" type="image/png" href="../resources/images/apps/Talon.png">
+    <title>Talon</title>
+    <link href="../resources/css/style.css" rel="stylesheet">
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../resources/css/apps/main.css" rel="stylesheet">
 
-  gtag('config', 'UA-160360963-1');
-</script>
+  </head>
+  <body id="page-top">
 
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top" id="mainNav">
+			<div class="container">
+				<a class="px-text navbar-brand js-scroll-trigger" href="/">Peroxaan Studios</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="/#apps">Apps</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="/#team">Team</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="/#partners">Partners</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="/downloads">Downloads</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../style.css">
-<link rel="stylesheet" href="../Apps.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
+    <header class="bg-dark text-white">
+      <div class="container text-center">
+        <img style="width: 60%; max-width: 200px; margin-bottom: 20px; border-radius: 25%;" src="../resources/images/apps/Talon.png">
 
-<link rel="apple-touch-icon" sizes="57x57" href="../Favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="../Favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="../Favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="../Favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="../Favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="../Favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="../Favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="../Favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../Favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="../Favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../Favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="../Favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../Favicon/favicon-16x16.png">
-<link rel="manifest" href="../Favicon/manifest.json">
-<meta name="msapplication-TileColor" content="../#ffffff">
-<meta name="msapplication-TileImage" content="../Favicon/ms-icon-144x144.png">
+        <h1 class="font-weight-bold">Talon</h1>
+        <p class="lead">Talon is designed to make your life easier. Webhooks, made simple.</p>
+        
+        <div>
+          <img style="width: 60%; max-width: 400px; margin-bottom: 10px;" src="../resources/images/screenshots/Talon.png">
+        </div>
 
-<body>
+        <a href="https://apps.apple.com/us/app/id1492913323">
+          <img style="max-width: 10rem; margin-bottom: 10px;" class="app-badge" src="../resources/images/buttons/App Store.png">
+        </a> 
+        
+        <!-- <a class="btn btn-light" href="go/index.html">GO</a> -->
+        
 
-<!-- Navbar -->
-<div class="px-top">
-  <div class="px-bar px-black px-card">
-    <a class="px-bar-item px-button px-hide-medium px-hide-large px-right" style="margin-top: 10px;" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars fa-lg"></i></a>
-    <a href="../#" class=" px-logo-button px-bar-item px-padding-large">Peroxaan Studios</a>
-    <a href="../#" class="px-bar-item px-button px-padding-medium px-hide-small" style="font-size: medium;margin-top: 10px;">Home</a>
-    <a href="../#about" class="px-bar-item px-button px-padding-medium px-hide-small" style="font-size: medium ;margin-top: 10px;">About</a>
-    <a href="../#apps" class="px-bar-item px-button px-padding-medium px-hide-small" style="font-size: medium;margin-top: 10px;">Apps</a>
-    <a href="../#team" class="px-bar-item px-button px-padding-medium px-hide-small" style="font-size: medium;margin-top: 10px;">Team</a>
-  </div>
-</div>
+      <div class="container text-center">
+        <a class="btn btn-secondary" href="https://twitter.com/TalonApp">Follow On Twitter</a>
+      </div>
+    </header>
 
-<!-- Navbar on small screens -->
-<div id="customNavBar" class="px-bar-block px-black px-hide px-hide-large px-hide-medium px-top" style="margin-top:46px">
-  <a href="../#" class="px-bar-item px-button px-padding-large" onclick="myFunction()">Home</a>
-  <a href="../#about" class="px-bar-item px-button px-padding-large" onclick="myFunction()">About</a>
-  <a href="../#apps" class="px-bar-item px-button px-padding-large" onclick="myFunction()">Apps</a>
-  <a href="../#team" class="px-bar-item px-button px-padding-large" onclick="myFunction()">Team</a>
-</div>
+    <section class="bg-light text-white" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>About Talon</h2>
+            <p class="lead">Talon is a simple tool for users to use, manage, and work with Webhooks on Discord and Slack.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- Page content -->
-<div class="px-content" style="max-width:2000px;margin-top:100px">
-  <main class="section-main">
-    <img class="app-icon" src="../Resources/Apps/Talon.png">
+    <section id="features" class="bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Simple Design</h2>
+            <p class="lead">Talon gets rid of everything complex, and gives you a nice and easy to use Interface thats familiar to use.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Ease of Use</h2>
+            <p class="lead">It's very easy to use, and allows a larger audience to work with Webhooks in a simple way, without requiring you to know how to code.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <h1>Talon</h1>
-    <h2>Talon is designed to make your life easier. Webhook Management and File Sharing combined, with your needs in mind.</h2>
+    <section class="bg-light text-white" id="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Frequently Asked Questions</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h4>X feature says "Not Yet Implemented"?</h4>
+            <p class="lead">Keep in mind that this is still in beta. We are working hard on adding all planned features. </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h4>Something is broken, what should I do?</h4>
+            <p class="lead">If something isn't working as intended, please file a bug report through TestFilght. We'll get right on a fix.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h4>Where can I submit feature requests?</h4>
+            <p class="lead">Send us a DM on Twitter (@TalonApp), and we'll see about adding it!</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <img class="hero-image" src="../Resources/Screenshots/Talon.png">
+    <!-- Footer -->
+		<footer class="py-5 bg-dark">
+			<div class="container">
+				<p class="m-0 text-center text-white">Copyright &copy; 2020 Peroxaan Studios</p>
+				<p class="m-0 text-center text-muted">
+					<a target="_blank" class="text-muted" href="https://twitter.com/Peroxaan">Twitter</a> • 
+					<a target="_blank" class="text-muted" href="https://www.instagram.com/peroxaan">Instagram</a> • 
+					<a target="_blank" class="text-muted" href="https://discord.gg/eu5J6cd">Discord</a> • 
+					<a target="_blank" class="text-muted" href="https://github.com/Peroxaan">Github</a> • 
+					<a target="_blank" class="text-muted" href="https://reddit.com/r/Peroxaan">Reddit</a>
+				</p>
 
-    <div class="app-badges">
-    
-    <a href="https://testflight.apple.com/join/PLKKFJ9Q">
-        <img class="app-badge" src="../Resources/Testflight.png">
-    </a>
-    
-    </div>
-</div>
-<!-- End Page Content -->
+			</div>
+		</footer>
 
-<!-- Footer -->
-<footer class="px-container px-padding-16 px-center px-light-grey px-xlarge">
-  <a href="https://twitter.com/Peroxaan"><i class="fa fa-twitter px-hover-opacity"></i></a>
-  <a href="https://www.instagram.com/peroxaan"><i class="fa fa-instagram px-hover-opacity"></i></a>
-  <a href="https://discord.gg/eu5J6cd"><i class="fab fa-discord px-hover-opacity"></i></a>
-  <a href="https://github.com/Peroxaan"><i class="fa fa-github px-hover-opacity"></i></a>
-  <a href="https://reddit.com/r/Peroxaan"><i class="fa fa-reddit px-hover-opacity"></i></a>
-  <p class="px-medium"><a href="http://peroxaan.tech" target="_blank">peroxaan.tech</a> design by <a href="https://twitter.com/mac_user669" target="_blank">mac-user669</a></p>
-</footer>
-
-<script>
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("customNavBar");
-  if (x.className.indexOf("px-show") == -1) {
-    x.className += " px-show";
-  } else { 
-    x.className = x.className.replace(" px-show", "");
-  }
-}
-
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
-
-</body>
+    <!-- JavaScript -->
+    <script src="/resources/js/jquery.min.js"></script>
+    <script src="/resources/js/bootstrap.min.js"></script>
+    <script src="/resources/js/jquery.easing.min.js"></script>
+    <script src="/resources/js/main.js"></script>
+  </body>
 </html>
